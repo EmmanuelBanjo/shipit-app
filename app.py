@@ -1,7 +1,7 @@
 import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-MESSAGE = "Hello from ShipIt Weekend!"
+MESSAGE = "Shipped automatically by GitHub Actions!"
 
 
 class Handler(BaseHTTPRequestHandler):
