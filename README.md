@@ -55,7 +55,7 @@ shipit-app/
 
 `app.py` is a basic HTTP server that returns one HTML page. It reads the port from the `PORT` environment variable and falls back to `8080`, and it listens on `0.0.0.0` so it can be reached from outside the container.
 
-![app.py](docs/screenshots/app-py.png)
+![app.py](screenshots/app-py.png)
 
 ### 2. Containerised it
 
@@ -224,7 +224,7 @@ permissions:
 
 Then re-ran the failed job.
 
-![Issue 4](docs/screenshots/issue-4-actions-403.png)
+![Issue 4](screenshots/issue-4-actions-403.png)
 
 ---
 
